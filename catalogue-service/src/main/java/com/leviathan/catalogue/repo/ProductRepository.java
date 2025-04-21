@@ -1,6 +1,6 @@
-package com.leviathan.manager.repo;
+package com.leviathan.catalogue.repo;
 
-import com.leviathan.manager.entity.Product;
+import com.leviathan.catalogue.entity.Product;
 
 import java.util.List;
 import java.util.Optional;

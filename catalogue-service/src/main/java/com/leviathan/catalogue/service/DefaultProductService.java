@@ -1,7 +1,7 @@
-package com.leviathan.manager.service;
+package com.leviathan.catalogue.service;
 
-import com.leviathan.manager.entity.Product;
-import com.leviathan.manager.repo.ProductRepository;
+import com.leviathan.catalogue.entity.Product;
+import com.leviathan.catalogue.repo.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

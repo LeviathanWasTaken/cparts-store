@@ -1,0 +1,4 @@
+cparts-store:
+  services:
+    catalogue:
+      uri: http://localhost:8081

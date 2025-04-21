@@ -1,6 +1,6 @@
-package com.leviathan.manager.repo;
+package com.leviathan.catalogue.repo;
 
-import com.leviathan.manager.entity.Product;
+import com.leviathan.catalogue.entity.Product;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;
