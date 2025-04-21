@@ -5,8 +5,14 @@
     <title>Products list &ndash; CParts Store</title>
 </head>
 <body>
-<h1>Products List</h1>
 <a data-th-href="@{/catalogue/products/create}">+ Create Product</a>
+<h1>Products List</h1>
+<form method="GET" data-th-action="@{/catalogue/products/list}">
+    <label>Filter: <input type="text" name="filter" data-th-value="${filter}"/>
+        <button type="submit">Search</button>
+    </label>
+
+</form>
 <table>
     <thead>
     <tr>
