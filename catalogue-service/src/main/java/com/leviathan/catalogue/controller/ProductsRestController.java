@@ -5,12 +5,14 @@ import com.leviathan.catalogue.entity.Product;
 import com.leviathan.catalogue.service.ProductService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindException;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 
+import java.security.Principal;
 import java.util.Map;
 
 @RestController

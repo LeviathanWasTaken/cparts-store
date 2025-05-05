@@ -2,3 +2,21 @@ cparts-store:
   services:
     catalogue:
       uri: http://localhost:8081
+      registration-id: keycloak
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: manager-app
+            client-secret: 59z1MboG3PbnIYUy2LfysY2U8dzCYggd
+            scope:
+              - openid
+              - view_catalogue
+              - edit_catalogue
+              - microprofile-jwt
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8085/realms/cparts-store
+            user-name-attribute: preferred_username
